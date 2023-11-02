@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript-NavBar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <label class="logo">OnlyJS</label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+      <label id="icon">
+        <i class="fas fa-bars"></i>
+      </label>
+    </nav>
+   <section>
+   <div>
+     <h3>SORU-1</h3>
+      <p>Ne oluyor da butona bastığımda alttaki linkler görünmez ise görünür oluyor, görünür ise görünmez oluyor? Bunun mantığı nedir, nasıl yapılmış?
+      </p>
+      <h3>Cevap:</h3>
+      <p>
+        JavaScript ile yapılan bir görünümdür. JavaScript ile verdiğimiz komut butona verdiğimiz class'ın aktif olup kapanması ile oluyor.
+      </p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h3>Soru-2</h3>
+      <p>Bunu responsive bir şekilde nasıl yapabilirdik? Masaüstü ekranında normal navbar gösterip mobil ekranda bu şekilde açılıp kapanan mobil navbar nasıl yapabiliriz?
+      </p>
+      <h3>Cevap:</h3>
+      <p>Responsiv şekilde yapmak için <span>@media</span> etiketi kullanarak hangi görünümde yapmakistiyor isek ona göre ekran boyutunu veririz. Bunun ile birlikte bu media kısmına hamburger menude kullnammız gereken class'ı vererek bu class'ı HTML dosyamızda kullanmadan JavaScript dosyamızda kullanarak mobil görünümde açılıp kapana bilen bir hamburger menü yapabiliriz. Nitekim örneğini şuanda bulunmuş olduğunuz localhost kısmında görüyorsunuz.
+      </p>
+    </div>
+   </section>
+    <script src="sytle.js"></script>
+  </body>
+</html>
